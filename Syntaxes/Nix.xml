@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<syntax name="nix">
+    <meta>
+        <name>Nix</name>
+        <type>structured</type>
+        <preferred-file-extension>nix</preferred-file-extension>
+    </meta>
+    
+    <detectors>
+        <extension priority="1.0">nix</extension>
+    </detectors>
+    
+    <indentation>
+        <increase>
+            <expression>(\{[^}\"']*$)|(\[[^\]\"']*$)|(\([^)\"']*$)</expression>
+        </increase>
+        <decrease>
+            <expression>^\s*(\s*/\*.*\*/\s*)*[\}\]\)\\]</expression>
+        </decrease>
+    </indentation>
+    
+    <comments>
+        <single>
+            <expression>#</expression>
+        </single>
+    </comments>
+    
+    <brackets>
+        <pair open="{" close="}" />
+        <pair open="[" close="]" />
+        <pair open="(" close=")" />
+    </brackets>
+    
+    <surrounding-pairs>
+        <pair open="{" close="}" />
+        <pair open="[" close="]" />
+        <pair open="(" close=")" />
+        <pair open="&quot;" close="&quot;" />
+    </surrounding-pairs>
+    
+    <injection>
+        <expression>^(nix)$</expression>
+    </injection>
+    
+    <tree-sitter>
+        <highlights />
+        <injections />
+        <folds />
+    </tree-sitter>
+</syntax>
