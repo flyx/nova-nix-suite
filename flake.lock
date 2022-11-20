@@ -2,11 +2,11 @@
   "nodes": {
     "nixpkgs": {
       "locked": {
-        "lastModified": 1668459637,
-        "narHash": "sha256-HqnWCKujmtu8v0CjzOT0sr7m2AR7+vpbZJOp1R0rodY=",
+        "lastModified": 1666867875,
+        "narHash": "sha256-3nD7iQXd/J6KjkT8IjozTuA5p8qjiLKTxvOUmH+AzNM=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "16f4e04658c2ab10114545af2f39db17d51bd1bd",
+        "rev": "c132d0837dfb9035701dcd8fc91786c605c855c3",
         "type": "github"
       },
       "original": {
@@ -19,29 +19,26 @@
     "nova": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-+Fyalty0qmN/sipAtavW5Z5bXEef4YBzNUHrzwxVGoU=",
+        "narHash": "sha256-y9PPIABEp0rhaP2KkrYO3aEpVSCvA6L2V2dBuzDoabc=",
         "type": "tarball",
-        "url": "https://download.panic.com/nova/Nova%2010.zip"
+        "url": "https://download.panic.com/nova/Nova%2010.3.zip"
       },
       "original": {
         "type": "tarball",
-        "url": "https://download.panic.com/nova/Nova%2010.zip"
+        "url": "https://download.panic.com/nova/Nova%2010.3.zip"
       }
     },
     "nova-utils": {
       "inputs": {
-        "nixpkgs": [
-          "nixpkgs"
-        ],
         "nova": "nova",
         "utils": "utils"
       },
       "locked": {
-        "lastModified": 1668541098,
-        "narHash": "sha256-PExUU/mf/rSSs6W3Cab/wmffb2Wz2ved/YYraRs2qD4=",
+        "lastModified": 1668968257,
+        "narHash": "sha256-YyoP13EkGJmUu2tT0zpSK9/8+p18rY7ge5ZREufmRbo=",
         "owner": "flyx",
         "repo": "nova-extension-utils",
-        "rev": "c30b005f1a49fab80919cb9ea7ca2af6c2ab51a8",
+        "rev": "6960cf931883b9a7dfe513c6f339e42fc4384cf7",
         "type": "github"
       },
       "original": {
