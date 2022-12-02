@@ -33,13 +33,16 @@
       in {
         packages.default = pkgs.buildNovaExtension {
           name = "Nix Suite";
-          version = "0.1.0";
+          version = "0.1.1";
           src = self;
           identifier = "org.flyx.nix";
           organization = "Felix Krause";
           description = "TreeSitter-based extension for the Nix language";
           categories = [ "languages" ];
           license = "MIT";
+          bugs = "https://github.com/flyx/nova-nix-suite/issues";
+          repository = "https://github.com/flyx/nova-nix-suite";
+          funding = "https://github.com/sponsors/flyx";
           treeSitterLibs = [ syntax-lib ];
           derivationParams = {
             buildInputs = with pkgs; [ gnused librsvg ];
@@ -49,18 +52,20 @@
               ${pkgs.librsvg}/bin/rsvg-convert -w 64 -h 64 ${artwork} -o $extDir/extension@2x.png
             '';
           };
-          config = {
-            languageServer = {
+          config = [
+            {
+              name = "languageServer";
               title = "Language Server";
               type = "path";
               default = "nil";
-            };
-            formatOnSave = {
+            }
+            {
+              name = "formatOnSave";
               title = "Format on Save (requires nixfmt)";
               type = "boolean";
               default = false;
-            };
-          };
+            }
+          ];
           main = "main.js";
           entitlements = { process = true; };
         };

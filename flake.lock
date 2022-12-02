@@ -2,11 +2,11 @@
   "nodes": {
     "nixpkgs": {
       "locked": {
-        "lastModified": 1666867875,
-        "narHash": "sha256-3nD7iQXd/J6KjkT8IjozTuA5p8qjiLKTxvOUmH+AzNM=",
+        "lastModified": 1669920164,
+        "narHash": "sha256-+3DM3bi/c/6MSCGDwAqqlpYHhOuKTL0bH7Xf4UmScdI=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "c132d0837dfb9035701dcd8fc91786c605c855c3",
+        "rev": "97e88a936cf18bc8a2c6cf65e4ec8d423e4cb743",
         "type": "github"
       },
       "original": {
@@ -34,11 +34,11 @@
         "utils": "utils"
       },
       "locked": {
-        "lastModified": 1668968583,
-        "narHash": "sha256-DUmqpNww5bMX9AzZUE9O6WZcXSmtvWUa89oGT5psEY4=",
+        "lastModified": 1670013637,
+        "narHash": "sha256-ETRC6TeA8H5i9ZW+qvJKEn5gymru/1anXH9QpBUIRRA=",
         "owner": "flyx",
         "repo": "nova-extension-utils",
-        "rev": "afc96a2833bbf29281600159a697fbedec48cbdd",
+        "rev": "ef77f3c745884e3902092386e68d05a55e9eb5cf",
         "type": "github"
       },
       "original": {
