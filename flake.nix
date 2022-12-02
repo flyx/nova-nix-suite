@@ -33,7 +33,7 @@
       in {
         packages.default = pkgs.buildNovaExtension {
           name = "Nix Suite";
-          version = "0.1.1";
+          version = "0.1.2";
           src = self;
           identifier = "org.flyx.nix";
           organization = "Felix Krause";

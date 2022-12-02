@@ -34,11 +34,11 @@
         "utils": "utils"
       },
       "locked": {
-        "lastModified": 1670013637,
-        "narHash": "sha256-ETRC6TeA8H5i9ZW+qvJKEn5gymru/1anXH9QpBUIRRA=",
+        "lastModified": 1670015116,
+        "narHash": "sha256-V+T9bijPHW5gISMnm718XRcQIjspYW1c2bczNvvy8OI=",
         "owner": "flyx",
         "repo": "nova-extension-utils",
-        "rev": "ef77f3c745884e3902092386e68d05a55e9eb5cf",
+        "rev": "e7406608383ffcddbb783b577f73643f7233f244",
         "type": "github"
       },
       "original": {
